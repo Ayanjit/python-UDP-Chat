@@ -14,7 +14,8 @@ It is not the external IP.
 
 Step 2:  
 In another machine connected with the same Wifi or same machine where server is running,  
-open another CMD and run -> python chat.py <Server IP>  
+open another CMD and run -> python chat.py XXX.XXX.XXX.XXX  
+XXX.XXX.XXX.XXX is the ServerIP.  
 When you started the server, it prints it's IP.  
 You can open more than one CMD and run the same command to spawn multiple client.  
   
