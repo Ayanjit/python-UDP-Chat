@@ -17,7 +17,7 @@ In another machine connected with the same Wifi or same machine where server is 
 open another CMD and run -> python chat.py XXX.XXX.XXX.XXX  
 XXX.XXX.XXX.XXX is the ServerIP.  
 When you started the server, it prints it's IP.  
-You can open more than one CMD and run the same command to spawn multiple client.  
+You can open more than one CMD and run the same command to spawn multiple clients.  
   
   
   
@@ -29,5 +29,5 @@ When the name is created, then server came to know about the client.
   
   
 Step 4:  
-After naming all the client, when any client writes a message it goes to all the cliets which are connected to the same server.  
+After naming all the client, when any client writes a message it goes to all the clients which are connected to the same server.  
 The message also gets printed in the Server.  
