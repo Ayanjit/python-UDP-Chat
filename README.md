@@ -7,8 +7,8 @@ It uses UDP for data transfer between Server and Client Process.
 Step 1:  
 In the CMD write -> python chat.py  
 It creates a server and prints the IP address of the server.  
-Server port is fixed at 5000.
-The IP addess is the one which provided by the Wifi Router.  
+Server port is fixed at 5000.  
+The IP addess is the one which is provided by the Wifi Router.  
 It is not the external IP.  
 
 
