@@ -30,5 +30,3 @@ When the name is created, then server came to know about the client.
 Step 4:
 After naming all the client, when any client writes a message it goes to all the cliets which are connected to the same server.
 The message also gets printed in the Server.
-
-
