@@ -23,6 +23,9 @@ def RunClient(serverIP):
     s.bind((host,port))
 
     name = input('Please write your name here: ')
+    if name == '':
+        name = 'Guest'+str(random.randint(1000,9999))
+        print('Your name is:'+name)
     s.sendto(name.encode('utf-8'),server)
     threading.Thread(target=ReceiveData,args=(s,stop)).start()
     while True:
